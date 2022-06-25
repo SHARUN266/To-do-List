@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+  font-family: "Josefin Sans","Arial Narrow",'Arial','sans-serif';
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #6383aa;;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #8866aa;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.CenterDiv{
+  height: auto;
+  padding: 1rem 0rem 2rem 0rem;
+  width: 50%;
+  background: white;
+  margin:auto;
+  border-radius: 15px;
+  margin-top: 10%;
+
+
+  
+}
+.head{
+  
+  width: 100%;
+  height: auto;
+  color:white;
+  margin-top: 5%;
+  background: #8566aa;
+ 
+  margin-bottom: 10px;
+  text-align: center;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  
+  
+}
+input{
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  margin-left: 10%;
+  margin-top: 5%;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+}
+button{
+  min-height: 40px;
+  width: 50px;
+  border-radius: 50%;
+  border-color:transparent;
+  background: #8866aa;
+  border: none;
+  outline: none;
+  margin-left: 5%;
+  color: white;
+  font-size: 40px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+
+}
+button:hover{
+  background: rgb(11, 125, 11);
+}
+
+ol{
+  margin-left: 30px;
+}
+
+ol li{
+  font-weight: 600;
+
+}
+.todo-style{
+  
+ width: 80%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #111;
+  margin-top: 5%;
+  border-bottom: 1px solid rgb(196, 195, 195);
+
+}
+.todo-style>li{
+  margin-left: 20px;
+
+  
+}
+#icon{
+  transition: 500ms;
+}
+
